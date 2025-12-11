@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id">
+  <string name="firebase_database_url" translatable="false">null</string>
+  <string name="gcm_defaultSenderId" translatable="false">784770905503</string>
+  <string name="google_storage_bucket" translatable="false">fir-unitygamedemo.firebasestorage.app</string>
+  <string name="project_id" translatable="false">fir-unitygamedemo</string>
+  <string name="google_api_key" translatable="false">AIzaSyAkAGCfxKK7r1IznB7YSPiL1qgFPZr14EE</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAkAGCfxKK7r1IznB7YSPiL1qgFPZr14EE</string>
+  <string name="google_app_id" translatable="false">1:784770905503:android:57a1a2cb3b2d6d9f8439aa</string>
+</resources>

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e92750f248378de47a43a037864f9ba5, type: 3}
+  m_Name: WeaponLibraryChater1
+  m_EditorClassIdentifier: 
+  configurations:
+  - {fileID: 8642068553798850973, guid: 159dd2b29f668a84d8820f2d33343e82, type: 3}
+  - {fileID: 7401899454204673203, guid: 01998525090c6ab4991fb2741bf570d4, type: 3}
+  - {fileID: 3810129919049012489, guid: cc90f842ebf14bd48bc253d8b4adca17, type: 3}

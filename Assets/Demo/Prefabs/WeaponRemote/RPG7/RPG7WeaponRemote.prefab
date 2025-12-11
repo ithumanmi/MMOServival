@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4256855940696385713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9147529093298546579}
+  - component: {fileID: 157762529841488248}
+  - component: {fileID: 3810129919049012489}
+  m_Layer: 0
+  m_Name: RPG7WeaponRemote
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9147529093298546579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4256855940696385713}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.4299998, y: 0, z: -3.361}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &157762529841488248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4256855940696385713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a9d7c1e95e56f34c9d0a293e87f3380, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialPoolCapacity: 10
+--- !u!114 &3810129919049012489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4256855940696385713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 767631d392de92547bfffa043f07f4cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Stats:
+    alignment:
+      unityObjectReference: {fileID: 0}
+    baseStats:
+      health: 0
+      strength: 0
+      defense: 0
+      agility: 0
+      elementalProtection: 00000000000000000000000000000000
+      elementalBoosts: 00000000000000000000000000000000
+  targetTransform: {fileID: 0}
+  CharacterData: {fileID: 0}
+  levels:
+  - {fileID: 3788940437846739144, guid: 5a5ef68b34913fe4f87664c0b7301e90, type: 3}
+  - {fileID: 3788940437846739144, guid: cc2676f0dd129f1419e232959b35d7e5, type: 3}
+  - {fileID: 3788940437846739144, guid: 6826e57782d0cde4c95fe2557de1cea8, type: 3}
+  towerName: RPG7
+  enemyLayerMask:
+    serializedVersion: 2
+    m_Bits: 0

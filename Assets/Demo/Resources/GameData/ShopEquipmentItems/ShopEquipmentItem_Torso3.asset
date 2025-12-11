@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6830d0eb33b9fac4cafe3c272ac385fd, type: 3}
+  m_Name: ShopEquipmentItem_Torso3
+  m_EditorClassIdentifier: 
+  ItemName: Torso 3
+  ItemSprite: {fileID: 21300000, guid: 2b9388d7bb66a114d910a20767dcb24f, type: 3}
+  Description: Torso 3
+  WorldObjectPrefab: {fileID: 0}
+  Slot: 1
+  MinimumStrength: 30
+  MinimumAgility: 30
+  MinimumDefense: 30
+  EquippedEffects: []
+  spriteBorder: {fileID: -1872641300, guid: 510d8bbf2929f7144b468ab0c8a7dabd, type: 3}
+  cost: 30
+  CostInCurrencyType: 0
+  item: {fileID: 0}

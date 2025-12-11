@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f0a7ee8fba26f4192810a6eeaea433, type: 3}
+  m_Name: SingletonPrefabInfo
+  m_EditorClassIdentifier: 
+  sceneLoaderManagerPrefab: {fileID: 2486699295346468696, guid: 4badcdd74f9c6bf4b85e9e56049f6507,
+    type: 3}
+  AudioManager: {fileID: 1157569831740582395, guid: e1f30e44f10c50040998b1f8eec48e60,
+    type: 3}

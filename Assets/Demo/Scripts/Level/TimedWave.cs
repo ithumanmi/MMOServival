@@ -1,0 +1,46 @@
+using Core.Utilities;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class TimedWave : Wave
+{
+    [Tooltip("The time until the next wave is started")]
+    public float timeToNextWave = 10f;
+
+    /// <summary>
+    /// The timer used to start the next wave
+    /// </summary>
+    protected Timer m_WaveTimer;
+
+    public override float progress
+    {
+        get { return m_WaveTimer == null ? 0 : m_WaveTimer.normalizedProgress; }
+    }
+
+    /// <summary>
+    /// Initializes the Wave
+    /// </summary>
+    public override void Init()
+    {
+        base.Init();
+
+        if (spawnInstructions.Count > 0)
+        {
+            m_WaveTimer = new Timer(timeToNextWave, SafelyBroadcastWaveCompletedEvent);
+            StartTimer(m_WaveTimer);
+        }
+    }
+
+    /// <summary>
+    /// Handles spawning the current agent and sets up the next agent for spawning
+    /// </summary>
+    protected override void SpawnCurrent()
+    {
+        Spawn();
+        if (!TrySetupNextSpawn())
+        {
+            StopTimer(m_SpawnTimer);
+        }
+    }
+}

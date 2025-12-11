@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6830d0eb33b9fac4cafe3c272ac385fd, type: 3}
+  m_Name: ShopEquipmentItem_Legs1
+  m_EditorClassIdentifier: 
+  ItemName: Legs 1
+  ItemSprite: {fileID: 21300000, guid: 0fa113a123f0d5b4e92957e824865a98, type: 3}
+  Description: Legs 1
+  WorldObjectPrefab: {fileID: 0}
+  Slot: 2
+  MinimumStrength: 10
+  MinimumAgility: 10
+  MinimumDefense: 10
+  EquippedEffects: []
+  spriteBorder: {fileID: -1872641300, guid: 510d8bbf2929f7144b468ab0c8a7dabd, type: 3}
+  cost: 10
+  CostInCurrencyType: 0
+  item: {fileID: 0}

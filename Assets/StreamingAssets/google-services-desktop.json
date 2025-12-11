@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "firebase_url" : "null",
+    "project_number": "784770905503",
+    "project_id": "fir-unitygamedemo",
+    "storage_bucket": "fir-unitygamedemo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784770905503:android:57a1a2cb3b2d6d9f8439aa",
+        "android_client_info": {
+          "package_name": "com.GameDemo.GameDemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkAGCfxKK7r1IznB7YSPiL1qgFPZr14EE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
