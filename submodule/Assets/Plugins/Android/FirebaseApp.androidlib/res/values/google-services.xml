@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_android_client_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">405598652127</string>
+  <string name="google_storage_bucket" translatable="false">closet-sort-3d-tidy-monster.appspot.com</string>
+  <string name="project_id" translatable="false">closet-sort-3d-tidy-monster</string>
+  <string name="google_api_key" translatable="false">AIzaSyARruATrbDcvcmn1bBQj1YVBh955N_o9rU</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyARruATrbDcvcmn1bBQj1YVBh955N_o9rU</string>
+  <string name="google_app_id" translatable="false">1:405598652127:android:a75aab1ace5624dcba4b6a</string>
+  <string name="default_android_client_id" translatable="false">405598652127-otl1mk6305tle88miceo90f62aqusoi2.apps.googleusercontent.com</string>
+  <string name="default_web_client_id" translatable="false">405598652127-tghg994db3gi192oi4uu6f5jjkgrehm2.apps.googleusercontent.com</string>
+</resources>
